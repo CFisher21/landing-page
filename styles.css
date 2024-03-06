@@ -9,8 +9,117 @@ nav {
     background-color: #1F2937;
     justify-content: space-between;
     align-items: center;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 180px;
+    padding-right: 180px;
+    box-sizing: border-box;
+    width: 75vw;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.main {
+    display: inline-flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding-left: 180px;
+    padding-right: 180px;
+    width: 75vw;
+    background-color: #1F2937;
+}
+
+.space-between {
+    display: flex;
+    justify-content: space-between;
+    width: 50vw;
+}
+
+.information {
+    width: 75vw;
+    background-color: #F9FAF8;
+}
+
+.awesome-title {
+    font-size: 48px;
+    font-weight: 700;
+    color: #F9FAF8;
+}
+
+.info-header {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 700;
+    margin: 56px 0 56px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.awesome-p {
+    padding-top: 8px;
+    color: #F9FAF8
+}
+
+.center-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-div {
+    box-sizing: border-box;
+    width: 600px;
+    padding-top: 140px;
+    padding-bottom: 140px;
+    margin-right: 56px;
+
+}
+
+#sign-up {
+    margin-top: 16px;
+    background-color: #3882f6;
+    border: 0;
+    border-radius: 8px;
+    padding-left: 34px;
+    padding-right: 34px;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    color:#F9FAF8;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 0;
+}
+
+.img-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 240px;
+    width: 520px;
+    background-color: rgba(255, 255, 255, 0.3)
+}
+
+.img-placeholder {
+    color: #F9FAF8;
+    width: 520px;
+    height: 280px;
+    object-fit: cover;
+    
+}
+
+.info-pic {
+    width: 160px;
+    height: 160px;
+    border: 3px solid #3882f6;
+    border-radius: 8px;
+    object-fit: cover;
 }
 
 .header-logo {
@@ -21,11 +130,11 @@ nav {
 }
 
 .header-links {
-    margin: 16px;
+    margin: 16px 0 16px 16px;
     font-size: 18px;
     color: #E5E7EB;
 }
 
 .header-link {
-    margin: 8px;
+    margin-left: 16px;
 }
