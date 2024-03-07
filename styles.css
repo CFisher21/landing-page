@@ -55,11 +55,25 @@ nav {
     margin: 56px 0 56px;
 }
 
+.quote-p {
+    width: 45vw;
+    font-size: 36px;
+    font-style: italic;
+    margin-top: 128px;
+}
+
 .item {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    width: 160px;
+}
+
+span {
+    margin-top: 8px;
+    color: #1F2937;
+    margin-bottom: 128px;
 }
 
 .awesome-p {
@@ -80,6 +94,24 @@ nav {
     padding-bottom: 140px;
     margin-right: 56px;
 
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote h2 {
+    align-self: flex-end;
+    margin-right: 20vw;
+    margin-bottom: 128px;
+}
+
+.quote-container {
+    width: 75vw;
+    background-color: #E5E7EB;
 }
 
 #sign-up {
