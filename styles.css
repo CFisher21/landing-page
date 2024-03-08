@@ -246,3 +246,10 @@ color: #E5E7EB;
     font-size: large;
     color: #E5E7EB;
 }
+
+@media (max-width: 500px) {
+
+    nav {
+        padding: 0;
+    }
+}
