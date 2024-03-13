@@ -15,6 +15,23 @@ nav {
     width: 75vw;
 }
 
+.toggle-button {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40px;
+    height: 21px;
+}
+.bar {
+    height: 6px;
+    width: 100%;
+    background-color: black;
+    border-radius: 10px;
+}
+
 .center {
     display: flex;
     justify-content: center;
@@ -47,7 +64,7 @@ nav {
     line-height: 0px;
     margin-left: 200px;
     cursor: pointer;
-    margin-right: 120px;
+    margin-right: 200px;
 }
 
 
@@ -128,7 +145,7 @@ nav {
     width: 160px;
 }
 
-span {
+.img-text {
     margin-top: 8px;
     color: #1F2937;
     margin-bottom: 128px;
@@ -194,7 +211,6 @@ span {
     align-items: center;
     height: 240px;
     width: 520px;
-    background-color: rgba(255, 255, 255, 0.3)
 }
 
 .img-placeholder {
@@ -229,6 +245,8 @@ span {
 .header-link {
     margin-left: 16px;
     cursor: pointer;
+    text-decoration: none;
+    color: #F9FAF8;
 }
 
 .footer-container {
@@ -248,9 +266,70 @@ color: #E5E7EB;
     color: #E5E7EB;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
 
     nav {
         padding: 0;
+        width: 100%;
+    }
+
+    .main {
+        display: flex;
+        padding: 0;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        padding-bottom: 64px;
+        height: auto;
+        align-items: center;
+    }
+
+    .space-between {
+        flex-direction: column;
+    }
+
+    .awesome-title {
+        font-size: 24px;
+    }
+
+    .sign-up-div {
+        width: 88vw;
+        margin: 16px;
+        padding: 0vw;
+    }
+    
+    .img-placeholder {
+        width: 88vw;
+        height: auto;
+        margin-top: 16px;
+    }
+
+    .img-div {
+        height: auto;
+    }
+
+    #sign-up {
+        width: 100%;
+    }
+
+    .awesome-p {
+        font-size: 16px;
+    }
+
+    .sign-up-div2 {
+        margin: 0;
+       padding: 0;
+    }
+
+    #sign-up-2 {
+        margin: 0;
+    }
+
+    .toggle-button{
+        display: flex;
+    }
+
+    .header-links {
+        display: none;
     }
 }
