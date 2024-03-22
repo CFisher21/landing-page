@@ -267,7 +267,7 @@ color: #E5E7EB;
     color: #E5E7EB;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
 
     nav {
         padding: 0;
